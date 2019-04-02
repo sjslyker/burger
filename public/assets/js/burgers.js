@@ -9,8 +9,8 @@ $(function() {
     console.log(newEaten)
 
     var newSleepState = {
-      devoured: true
-  }
+      devoured: newEaten
+    }
 
     console.log(newSleepState)
 
